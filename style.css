@@ -3,9 +3,9 @@
     width: 700px;
 }
 #bcg{ display: flex;
-  background-image:linear-gradient(to right, rgba(142, 68, 216, 0.534), rgba(53, 51, 58, 0.527)), url(./image/download.jpg);
+  background-image:linear-gradient(to right, rgba(142, 68, 216, 0.534), rgba(53, 51, 58, 0.527)), url(./image/images.jpg);
     
-    height: 800px;
+    height: 1000px;
    
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,10 +28,22 @@
     color: aquamarine;
     transition: 5s all ease;
 }
+  .cl samp{margin-left: 230px;
+
+  }
+
+.cl div{
+    font-family: initial;
+    font-size: 70px ;
+    color: rgb(223, 237, 100);
+
+}
+
+
 
 .btn button{
     padding: 15px 20px ;
-    transition: 20s background ease;
+    transition: 20s all ease;
     cursor: pointer;
     border: none;
     color: blue;
@@ -41,7 +53,7 @@
 
 .btn button:hover{
 background: linear-gradient(to right, #d1913c, #ffd194); ;
-transition: 20s background ease;
+transition: 20s all ease;
 }
 
 
@@ -50,3 +62,5 @@ transition: 20s background ease;
 .cl h2{
     transition: 30s all ease;
 }
+
+
